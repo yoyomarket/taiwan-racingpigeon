@@ -1,4 +1,6 @@
-import Link from "next/link"
+'use client'
+import Image from 'next/image'        
+import Link from 'next/link'
 import { ArrowRight, Award, Calendar, DollarSign } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -11,7 +13,7 @@ export default function Home() {
       <header className="bg-white border-b sticky top-0 z-10">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="/logo.png" alt="臺灣賽鴿市集標誌" className="h-10 w-10" />
+            <img src="/logo.png?v=2" alt="臺灣賽鴿市集標誌" className="h-10 w-10" />
             <span className="font-bold text-xl">臺灣賽鴿市集</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
@@ -43,8 +45,12 @@ export default function Home() {
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-50 to-blue-100">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
+
+              {/* 左侧文字区 */}
               <div className="flex flex-col justify-center space-y-4">
+
                 <div className="space-y-2">
+                  
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     臺灣最誠信賽鴿交易平台
                   </h1>
@@ -52,6 +58,10 @@ export default function Home() {
                     拍賣具有血統書、比賽證明、飛翔紀錄、入賞成績的賽鴿
                   </p>
                 </div>
+                 {/* 右侧大图 */}
+                 
+              
+      
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button size="lg" className="gap-1">
                     瀏覽賽鴿 <ArrowRight className="h-4 w-4" />
@@ -268,7 +278,7 @@ export default function Home() {
         <div className="container flex flex-col gap-6 py-8 md:flex-row md:items-center md:justify-between md:py-12">
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
-              <img src="/logo.png" alt="臺灣賽鴿市集標誌" className="h-8 w-8" />
+              <img src="/logo.png?v=2" alt="臺灣賽鴿市集標誌" className="h-8 w-8" />
               <span className="font-bold">臺灣賽鴿市集</span>
             </div>
             <p className="text-sm text-gray-500">自2024年起連接臺灣各地的賽鴿手和育種者。</p>

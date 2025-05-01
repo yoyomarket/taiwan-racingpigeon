@@ -52,7 +52,7 @@ export default function AboutPage() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">關於臺灣賽鴿市集</h1>
-                  <p className="max-w-[600px] text-gray-500 md:text-xl">自2024年起想要創立最公開的平台，促進鴿會成長也讓鴿友不再受騙。</p>
+                  <p className="max-w-[600px] text-gray-500 md:text-xl">2024年創立最公開的平台，促進鴿會成長也讓鴿友不再受騙。</p>
                 </div>
                 <p className="text-gray-500">
                   臺灣賽鴿市集成立的使命很簡單：創建一個值得信賴的平台，讓賽鴿愛好者能夠連接、交易並分享他們對賽鴿的熱情。我們目標成為臺灣首屈一指的賽鴿交易平台，為全國的鴿友提供服務。
@@ -176,7 +176,7 @@ export default function AboutPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-gray-500">
-                        第三代賽鴿手，儒鴻創立臺灣賽鴿市集，旨在使行業公開透明及現代化。
+                        第二代賽鴿手，儒鴻創立臺灣賽鴿市集，旨在使行業公開透明及現代化。
                       </p>
                     </CardContent>
                   </Card>

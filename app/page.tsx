@@ -227,9 +227,9 @@ export default function Home() {
                       1
                     </div>
                     <div className="space-y-1">
-                      <h3 className="font-medium">經過驗證的育種者</h3>
+                      <h3 className="font-medium">經過驗證的賽鴿</h3>
                       <p className="text-sm text-gray-500">
-                        我們平台上的所有育種者都經過驗證，並在賽鴿社區中擁有良好的記錄。
+                        我們平台上的所有賽鴿都經過驗證，確保雙方的交易。
                       </p>
                     </div>
                   </li>
@@ -239,7 +239,7 @@ export default function Home() {
                     </div>
                     <div className="space-y-1">
                       <h3 className="font-medium">安全交易</h3>
-                      <p className="text-sm text-gray-500">我們的平台通過託管服務和買家保護政策確保交易安全。</p>
+                      <p className="text-sm text-gray-500">我們的平台通過待售服務和買家保護政策確保交易安全。</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
@@ -248,7 +248,7 @@ export default function Home() {
                     </div>
                     <div className="space-y-1">
                       <h3 className="font-medium">完整的血統資料</h3>
-                      <p className="text-sm text-gray-500">獲取我們平台上所有賽鴿的詳細血統資料和比賽歷史。</p>
+                      <p className="text-sm text-gray-500">獲取我們平台上所有賽鴿的詳細血統資料和飛翔紀錄。</p>
                     </div>
                   </li>
                 </ul>
@@ -271,7 +271,7 @@ export default function Home() {
               <img src="/logo.png" alt="臺灣賽鴿市集標誌" className="h-8 w-8" />
               <span className="font-bold">臺灣賽鴿市集</span>
             </div>
-            <p className="text-sm text-gray-500">自2010年起連接臺灣各地的賽鴿手和育種者。</p>
+            <p className="text-sm text-gray-500">自2024年起連接臺灣各地的賽鴿手和育種者。</p>
           </div>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <Link href="#" className="text-sm hover:underline underline-offset-4">

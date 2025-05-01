@@ -160,103 +160,75 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   <h2 className="text-3xl font-bold">我們的團隊</h2>
                   <p className="text-gray-500">
-                    我們專業的團隊結合了數十年的賽鴿經驗和技術、商業及客戶服務方面的專業知識。
+                    我們專業的團隊結合各地鴿友的賽鴿經驗和技術及客戶服務方面的專業知識。
                   </p>
                 </div>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                   <Card>
                     <img
                       src="/placeholder.svg?height=300&width=300"
-                      alt="陳偉玲"
+                      alt="黃儒鴻"
                       className="aspect-square w-full object-cover"
                     />
                     <CardHeader>
-                      <CardTitle>陳偉玲</CardTitle>
+                      <CardTitle>黃儒鴻</CardTitle>
                       <CardDescription>創始人 & 執行長</CardDescription>
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-gray-500">
-                        第三代賽鴿手，擁有超過30年經驗。偉玲創立臺灣賽鴿市集，旨在使行業現代化。
+                        第三代賽鴿手，儒鴻創立臺灣賽鴿市集，旨在使行業公開透明及現代化。
                       </p>
                     </CardContent>
                   </Card>
                   <Card>
                     <img
                       src="/placeholder.svg?height=300&width=300"
-                      alt="林子威"
+                      alt="Yos"
                       className="aspect-square w-full object-cover"
                     />
                     <CardHeader>
-                      <CardTitle>林子威</CardTitle>
+                      <CardTitle>Yos</CardTitle>
                       <CardDescription>營運總監</CardDescription>
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-gray-500">
-                        子威負責所有市場運營，在開發我們的驗證和質量控制流程方面發揮了重要作用。
+                        Yos負責所有市場運營，在開發我們的驗證和質量控制流程方面發揮了重要作用。
                       </p>
                     </CardContent>
+                
+                  
+                      
                   </Card>
                   <Card>
                     <img
                       src="/placeholder.svg?height=300&width=300"
-                      alt="黃美華"
+                      alt="peter"
                       className="aspect-square w-full object-cover"
                     />
                     <CardHeader>
-                      <CardTitle>黃美華</CardTitle>
-                      <CardDescription>獸醫主任</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-gray-500">
-                        黃醫師領導我們的健康認證計劃，並為我們的社區提供有關賽鴿健康和福利的專業指導。
-                      </p>
-                    </CardContent>
-                  </Card>
-                  <Card>
-                    <img
-                      src="/placeholder.svg?height=300&width=300"
-                      alt="張怡辰"
-                      className="aspect-square w-full object-cover"
-                    />
-                    <CardHeader>
-                      <CardTitle>張怡辰</CardTitle>
+                      <CardTitle>peter</CardTitle>
                       <CardDescription>技術總監</CardDescription>
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-gray-500">
-                        怡辰領導我們的技術團隊，為我們的在線市場和拍賣系統開發創新解決方案。
+                        Peter領導我們的技術團隊，為我們的在線市場和拍賣系統開發創新解決方案。
                       </p>
                     </CardContent>
+                  
                   </Card>
                   <Card>
                     <img
                       src="/placeholder.svg?height=300&width=300"
-                      alt="吳佳玲"
+                      alt="XXX"
                       className="aspect-square w-full object-cover"
                     />
                     <CardHeader>
-                      <CardTitle>吳佳玲</CardTitle>
-                      <CardDescription>社區經理</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-gray-500">
-                        佳玲組織我們的社區活動、教育計劃，並維持與臺灣各地賽鴿俱樂部的關係。
-                      </p>
-                    </CardContent>
-                  </Card>
-                  <Card>
-                    <img
-                      src="/placeholder.svg?height=300&width=300"
-                      alt="李宗道"
-                      className="aspect-square w-full object-cover"
-                    />
-                    <CardHeader>
-                      <CardTitle>李宗道</CardTitle>
+                      <CardTitle>XXX</CardTitle>
                       <CardDescription>國際關係</CardDescription>
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-gray-500">
-                        宗道管理我們的國際合作夥伴關係，幫助臺灣的育種者與全球賽鴿社區連接。
+                        XXX管理我們的國際合作夥伴關係，幫助臺灣的育種者與全球賽鴿社區連接。
                       </p>
                     </CardContent>
                   </Card>
@@ -349,14 +321,14 @@ export default function AboutPage() {
                       <MapPin className="h-5 w-5 text-gray-500 mt-0.5" />
                       <div>
                         <p className="font-medium">總部</p>
-                        <p className="text-sm text-gray-500">臺灣台北市賽鴿巷123號</p>
+                        <p className="text-sm text-gray-500">臉書搜尋臺灣賽鴿市集</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-2">
                       <MapPin className="h-5 w-5 text-gray-500 mt-0.5" />
                       <div>
                         <p className="font-medium">拍賣中心</p>
-                        <p className="text-sm text-gray-500">臺灣台中市賽鴿路456號</p>
+                        <p className="text-sm text-gray-500">臺灣賽鴿路456號</p>
                       </div>
                     </div>
                   </CardContent>
@@ -407,7 +379,7 @@ export default function AboutPage() {
               <img src="/logo.png" alt="臺灣賽鴿市集標誌" className="h-8 w-8" />
               <span className="font-bold">臺灣賽鴿市集</span>
             </div>
-            <p className="text-sm text-gray-500">自2010年起連接臺灣各地的賽鴿手和育種者。</p>
+            <p className="text-sm text-gray-500">自2024年起連接臺灣各地的賽鴿好手。</p>
           </div>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <Link href="#" className="text-sm hover:underline underline-offset-4">
@@ -420,7 +392,7 @@ export default function AboutPage() {
               聯絡我們
             </Link>
           </div>
-          <div className="text-sm text-gray-500">© 2025 臺灣賽鴿市集。保留所有權利。</div>
+          <div className="text-sm text-gray-500">© 2024 臺灣賽鴿市集。保留所有權利。</div>
         </div>
       </footer>
     </div>

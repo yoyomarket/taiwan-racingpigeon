@@ -1,3 +1,5 @@
+'use client';
+import React from 'react';
 import Link from "next/link"
 import { Mail, MapPin, Phone } from "lucide-react"
 
@@ -50,10 +52,10 @@ export default function AboutPage() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">關於臺灣賽鴿市集</h1>
-                  <p className="max-w-[600px] text-gray-500 md:text-xl">自2010年起連接臺灣各地的賽鴿手和育種者。</p>
+                  <p className="max-w-[600px] text-gray-500 md:text-xl">自2024年起想要創立最公開的平台，促進鴿會成長也讓鴿友不再受騙。</p>
                 </div>
                 <p className="text-gray-500">
-                  臺灣賽鴿市集成立的使命很簡單：創建一個值得信賴的平台，讓賽鴿愛好者能夠連接、交易並分享他們對賽鴿的熱情。多年來，我們已發展成為臺灣首屈一指的賽鴿交易平台，為全國數千名育種者和賽鴿手提供服務。
+                  臺灣賽鴿市集成立的使命很簡單：創建一個值得信賴的平台，讓賽鴿愛好者能夠連接、交易並分享他們對賽鴿的熱情。我們目標成為臺灣首屈一指的賽鴿交易平台，為全國的鴿友提供服務。
                 </p>
               </div>
               <img
@@ -77,13 +79,13 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   <h2 className="text-3xl font-bold">我們的故事</h2>
                   <p className="text-gray-500">
-                    臺灣有著豐富的賽鴿歷史，可追溯到幾代人之前。2010年，一群熱情的賽鴿手認識到需要一個現代化、透明的市場，讓愛好者能夠連接和交易。
+                    臺灣有著豐富的賽鴿歷史，可追溯到幾代人之前。一群熱情的賽鴿手認識到需要一個現代化、透明且公開的市場，讓鴿友能夠更有保障。
                   </p>
                   <p className="text-gray-500">
-                    最初只是一個小型在線論壇，如今已發展成為臺灣最大的專業賽鴿交易市場。今天，我們每年舉辦數百場拍賣會，並促成育種者和賽鴿手之間數千次私人交易。
+                    最初只是一個小小社群、臉書分享，如今我們立志已發展成為臺灣最大的專業賽鴿交易市場。甚至希望能夠像其他前輩舉辦拍賣會，並促成賽鴿界的產業推進及和諧。
                   </p>
                   <p className="text-gray-500">
-                    我們的平台幫助臺灣的賽鴿社區獲得國際認可，我們市場上的鴿子在亞洲及其他地區的著名比賽中競爭並獲勝。
+                    希望我們的平台幫助臺灣的賽鴿獲得認可，我們市場上的鴿子在亞洲及其他地區的著名比賽中競爭並獲勝。
                   </p>
                 </div>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
@@ -102,7 +104,7 @@ export default function AboutPage() {
                       <CardDescription>擴展</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-sm text-gray-500">在台北開設了第一個實體拍賣中心，並擴展了在線服務。</p>
+                      <p className="text-sm text-gray-500">目前尚未設置拍賣中心，正在努力中。</p>
                     </CardContent>
                   </Card>
                   <Card>
@@ -111,7 +113,7 @@ export default function AboutPage() {
                       <CardDescription>創新</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-sm text-gray-500">引入在線直播拍賣和全面的血統追蹤系統。</p>
+                      <p className="text-sm text-gray-500">引入只具有飛翔證明、各大拍賣網站血統書賽鴿。</p>
                     </CardContent>
                   </Card>
                 </div>
@@ -120,7 +122,7 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   <h2 className="text-3xl font-bold">我們的使命</h2>
                   <p className="text-gray-500">
-                    在臺灣賽鴿市集，我們的使命是在臺灣及其他地區培養一個繁榮、透明和道德的賽鴿社區。我們致力於：
+                    在臺灣賽鴿市集，我們的使命是在臺灣及其他地區培養一個繁榮、透明和公平的賽鴿圈。
                   </p>
                 </div>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -130,38 +132,8 @@ export default function AboutPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-gray-500">
-                        我們驗證所有育種者，並為我們平台上列出的每隻賽鴿提供全面的血統資料。
-                      </p>
-                    </CardContent>
-                  </Card>
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>教育與社區</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-gray-500">
-                        我們定期舉辦工作坊、研討會和社區活動，分享賽鴿和育種的知識和最佳實踐。
-                      </p>
-                    </CardContent>
-                  </Card>
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>創新</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-gray-500">
-                        我們不斷用新技術改進我們的平台，以提升育種者和買家的體驗。
-                      </p>
-                    </CardContent>
-                  </Card>
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>動物福利</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-gray-500">
-                        我們提倡道德育種和比賽實踐，確保我們社區中所有賽鴿的健康和福祉。
-                      </p>
+                        我們驗證所有賽鴿，並為我們平台上列出的每隻賽鴿提供全面的血統資料及飛翔證明。</p>
+
                     </CardContent>
                   </Card>
                   <Card>
